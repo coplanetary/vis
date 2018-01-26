@@ -4,7 +4,7 @@
  *
  * A dynamic, browser-based visualization library.
  *
- * @version 4.21.0
+ * @version 4.21.1
  * @date    2018-01-26
  *
  * @license
@@ -46097,7 +46097,7 @@ var Diamond = function (_NodeBase) {
 
         this.width = dimensions.width + this.margin.right + this.margin.left;
         this.height = dimensions.height + this.margin.top + this.margin.bottom;
-        this.radius = this.width;
+        this.radius = this.width / 2 + this.margin.right + this.margin.left;
       }
     }
 
