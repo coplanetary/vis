@@ -1,15 +1,14 @@
 {
-  "name": "vis",
+  "name": "vis-grakn",
   "version": "4.21.0",
-  "description": "A dynamic, browser-based visualization library.",
-  "homepage": "http://visjs.org/",
+  "description": "A dynamic, browser-based visualization library. Forked from VisJS (https://github.com/almende/vis)",
   "license": "(Apache-2.0 OR MIT)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/almende/vis.git"
+    "url": "git://github.com/excerebrose/vis.git"
   },
   "bugs": {
-    "url": "https://github.com/almende/vis/issues"
+    "url": "https://github.com/excerebrose/vis/issues"
   },
   "keywords": [
     "vis",
