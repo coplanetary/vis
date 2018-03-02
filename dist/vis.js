@@ -46097,7 +46097,7 @@ var Diamond = function (_NodeBase) {
 
         this.width = dimensions.width + this.margin.right + this.margin.left;
         this.height = dimensions.height + this.margin.top + this.margin.bottom;
-        this.radius = this.width / 2.5 + this.margin.right + this.margin.left;
+        this.radius = this.width / 2.5 + this.margin.right;
       }
     }
 
