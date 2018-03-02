@@ -46324,8 +46324,8 @@ var Ellipse = function (_NodeBase) {
       if (this.needsRefresh(selected, hover)) {
         var dimensions = this.getDimensionsFromLabel(ctx, selected, hover);
 
-        this.height = dimensions.height * 2.5;
-        this.width = dimensions.width + dimensions.height + 20;
+        this.height = dimensions.height * 3;
+        this.width = dimensions.width + dimensions.height + 40;
         this.radius = 0.5 * this.width;
       }
     }
