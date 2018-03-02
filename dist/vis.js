@@ -4,8 +4,8 @@
  *
  * A dynamic, browser-based visualization library.
  *
- * @version 4.21.1
- * @date    2018-01-26
+ * @version 4.21.2
+ * @date    2018-03-02
  *
  * @license
  * Copyright (C) 2011-2017 Almende B.V, http://almende.com
@@ -27552,7 +27552,7 @@ var Arrow = function (_EndPoint) {
     value: function draw(ctx, arrowData) {
       // Normalized points of closed path, in the order that they should be drawn.
       // (0, 0) is the attachment point, and the point around which should be rotated
-      var points = [{ x: 0, y: 0 }, { x: -1, y: 0.3 }, { x: -0.9, y: 0 }, { x: -1, y: -0.3 }];
+      var points = [{ x: 0, y: 0 }, { x: -0.5, y: 0.25 }, { x: -0.5, y: 0 }, { x: -0.5, y: -0.25 }];
 
       EndPoint.transform(points, arrowData);
       EndPoint.drawPath(ctx, points);
@@ -46140,9 +46140,6 @@ var Diamond = function (_NodeBase) {
     key: 'updateBoundingBox',
     value: function updateBoundingBox(x, y, ctx, selected, hover) {
       this._updateBoundingBox(x, y, ctx, selected, hover);
-
-      var borderRadius = this.options.shapeProperties.borderRadius; // only effective for box
-      this._addBoundingBoxMargin(borderRadius);
     }
 
     /**
