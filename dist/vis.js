@@ -5,7 +5,7 @@
  * A dynamic, browser-based visualization library.
  *
  * @version 4.21.6
- * @date    2018-03-02
+ * @date    2018-03-14
  *
  * @license
  * Copyright (C) 2011-2017 Almende B.V, http://almende.com
@@ -46324,7 +46324,7 @@ var Ellipse = function (_NodeBase) {
       if (this.needsRefresh(selected, hover)) {
         var dimensions = this.getDimensionsFromLabel(ctx, selected, hover);
 
-        this.height = dimensions.height * 3;
+        this.height = dimensions.height * 2.4;
         this.width = dimensions.width + dimensions.height + 40;
         this.radius = 0.5 * this.width;
       }

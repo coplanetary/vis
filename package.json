@@ -1,6 +1,6 @@
 {
   "name": "vis-grakn",
-  "version": "4.21.6",
+  "version": "4.21.7",
   "description": "A dynamic, browser-based visualization library. Forked from VisJS (https://github.com/almende/vis)",
   "license": "(Apache-2.0 OR MIT)",
   "repository": {
